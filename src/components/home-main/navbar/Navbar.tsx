@@ -1,4 +1,5 @@
 import React from "react";
+// mui and style
 import { Avatar, Box, Typography } from "@mui/material";
 import { useNavbarStyle as classes } from "../HomeMain.style";
 
