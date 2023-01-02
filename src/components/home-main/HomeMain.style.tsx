@@ -161,3 +161,41 @@ export const useLatestCoursesCardSyle = {
     },
   },
 };
+
+export const useFooterStyle = {
+  footer: {
+    height: "250px",
+    alignItems: "center",
+    bgcolor: "#A2C958",
+  },
+  footerLeft: {
+    color: "#fff",
+    "& > p:first-of-type": {
+      fontSize: "26px",
+      fontWeight: 500,
+    },
+  },
+  footerRight: {
+    color: "#fff",
+    "& > p:first-of-type": {
+      fontSize: "26px",
+      textAlign: "start",
+      ml: "45px",
+      mb: "5px",
+    },
+  },
+  label: {
+    display: "flex",
+    alignItems: "center",
+    "& .MuiSvgIcon-root": { width: "15px", height: "15px" },
+    "& > p": {
+      ml: "5px",
+      fontSize: "16px",
+    },
+  },
+  subLabel: {
+    textAlign: "start",
+    ml: "25px",
+    fontSize: "14px",
+  },
+};

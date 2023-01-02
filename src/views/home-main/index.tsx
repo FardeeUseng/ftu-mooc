@@ -5,8 +5,9 @@ import { Box } from "@mui/material";
 import Navbar from "../../components/home-main/navbar/Navbar";
 import SideBar from "../../components/home-main/sidebar/SideBar";
 import Category from "../../components/home-main/category/Category";
-import RecommandedCourses from "../../components/home-main/recommanded-courses/RecommandedCourses";
 import LatestCourses from "../../components/home-main/latest-courses/LatestCourses";
+import Footer from "../../components/home-main/footer/Footer";
+import RecommandedCourses from "../../components/home-main/recommanded-courses/RecommandedCourses";
 
 export default function HomeMain() {
   return (
@@ -17,6 +18,7 @@ export default function HomeMain() {
         <Category />
         <RecommandedCourses />
         <LatestCourses />
+        <Footer />
       </Box>
     </Box>
   );
