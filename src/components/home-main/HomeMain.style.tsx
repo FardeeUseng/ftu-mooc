@@ -126,3 +126,38 @@ export const useRecommandedCoursesCardSyle = {
     },
   },
 };
+
+export const useLatestCoursesCardSyle = {
+  card: {
+    borderRadius: "12px",
+    cursor: "pointer",
+  },
+  cardContent: {
+    minHeight: "100px",
+    "& p:first-of-type": {
+      textAlign: "start",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap",
+      mb: "10px",
+    },
+    "& p:last-of-type": {
+      textAlign: "start",
+      fontSize: "14px",
+      color: "#707070",
+    },
+  },
+  contentBottom: {
+    display: "flex",
+    alignItems: "center",
+    my: "-12px",
+    "& .MuiAvatar-root": {
+      width: "20px",
+      height: "20px",
+    },
+    "& > p": {
+      ml: "5px",
+      fontSize: "14px",
+    },
+  },
+};

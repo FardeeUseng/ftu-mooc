@@ -6,6 +6,7 @@ import Navbar from "../../components/home-main/navbar/Navbar";
 import SideBar from "../../components/home-main/sidebar/SideBar";
 import Category from "../../components/home-main/category/Category";
 import RecommandedCourses from "../../components/home-main/recommanded-courses/RecommandedCourses";
+import LatestCourses from "../../components/home-main/latest-courses/LatestCourses";
 
 export default function HomeMain() {
   return (
@@ -15,6 +16,7 @@ export default function HomeMain() {
       <Box ml="70px">
         <Category />
         <RecommandedCourses />
+        <LatestCourses />
       </Box>
     </Box>
   );
