@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import Navbar from "../../components/home-main/navbar/Navbar";
 import SideBar from "../../components/home-main/sidebar/SideBar";
 import Category from "../../components/home-main/category/Category";
+import RecommandedCourses from "../../components/home-main/recommanded-courses/RecommandedCourses";
 
 export default function HomeMain() {
   return (
@@ -13,6 +14,7 @@ export default function HomeMain() {
       <SideBar />
       <Box ml="70px">
         <Category />
+        <RecommandedCourses />
       </Box>
     </Box>
   );

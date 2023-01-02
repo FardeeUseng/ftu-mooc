@@ -2,10 +2,13 @@ export const useNavbarStyle = {
   navCon: {
     height: "60px",
     bgcolor: "#A2C958",
+    top: 0,
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     px: "20px",
+    position: "sticky",
+    zIndex: 99,
     "& > p": {
       fontSize: "26px",
       fontWeight: 500,
@@ -29,7 +32,7 @@ export const useNavbarStyle = {
 
 export const useSidebarStyle = {
   sidebarCon: {
-    position: "absolute",
+    position: "fixed",
     top: 0,
     width: "70px",
     height: "100vh",
@@ -39,6 +42,7 @@ export const useSidebarStyle = {
     display: "flex",
     alignItems: "center",
     flexDirection: "column",
+    zIndex: 100,
     "& > img": {
       width: "50px",
       height: "50px",
@@ -85,5 +89,40 @@ export const useCategoryStyle = {
     height: "80px",
     boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px",
     mb: "5px",
+  },
+};
+
+export const useRecommandedCoursesCardSyle = {
+  card: {
+    borderRadius: "12px",
+    cursor: "pointer",
+  },
+  cardContent: {
+    minHeight: "100px",
+    "& p:first-of-type": {
+      textAlign: "start",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap",
+      mb: "10px",
+    },
+    "& p:last-of-type": {
+      textAlign: "start",
+      fontSize: "14px",
+      color: "#707070",
+    },
+  },
+  contentBottom: {
+    display: "flex",
+    alignItems: "center",
+    my: "-12px",
+    "& .MuiAvatar-root": {
+      width: "20px",
+      height: "20px",
+    },
+    "& > p": {
+      ml: "5px",
+      fontSize: "14px",
+    },
   },
 };
