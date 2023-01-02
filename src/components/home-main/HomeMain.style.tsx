@@ -71,3 +71,19 @@ export const useSidebarStyle = {
     mt: "5px",
   },
 };
+
+export const useCategoryStyle = {
+  catItem: {
+    display: "flex",
+    alignItems: "center",
+    flexDirection: "column",
+    my: "15px",
+    cursor: "pointer",
+  },
+  cateIcon: {
+    width: "80px",
+    height: "80px",
+    boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px",
+    mb: "5px",
+  },
+};
